@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Programación Web</h1>
+    </header>
+    
+    <section>
+        <h2>Operaciones Aritméticas</h2>
+        
+        <h3>Sumar dos números</h3>
+        <form id="formularioSuma">
+            <label for="sumaNumero1">Ingresa el primer número:</label>
+            <input type="number" id="sumaNumero1" required>
+            <label for="sumaNumero2">Ingresa el segundo número:</label>
+            <input type="number" id="sumaNumero2" required>
+            <button type="button" onclick="realizarSuma()">Sumar</button>
+        </form>
+        
+        <h3>Restar dos números</h3>
+        <form id="formularioResta">
+            <label for="restaNumero1">Ingresa el primer número:</label>
+            <input type="number" id="restaNumero1" required>
+            <label for="restaNumero2">Ingresa el segundo número:</label>
+            <input type="number" id="restaNumero2" required>
+            <button type="button" onclick="realizarResta()">Restar</button>
+        </form>
+        
+        <h3>Multiplicar dos números</h3>
+        <form id="formularioMultiplicacion">
+            <label for="multiplicacionNumero1">Ingresa el primer número:</label>
+            <input type="number" id="multiplicacionNumero1" required>
+            <label for="multiplicacionNumero2">Ingresa el segundo número:</label>
+            <input type="number" id="multiplicacionNumero2" required>
+            <button type="button" onclick="realizarMultiplicacion()">Multiplicar</button>
+        </form>
+        
+        <h3>Dividir dos números</h3>
+        <form id="formularioDivision">
+            <label for="divisionNumero1">Ingresa el primer número:</label>
+            <input type="number" id="divisionNumero1" required>
+            <label for="divisionNumero2">Ingresa el segundo número:</label>
+            <input type="number" id="divisionNumero2" required>
+            <button type="button" onclick="realizarDivision()">Dividir</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Resultado:</h2>
+        <p id="resultado">--</p>
+    </section>
+    
+    <script src="operaciones.js"></script>
+</body>
+</html>
